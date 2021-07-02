@@ -5,7 +5,7 @@ import {TransactionList} from './components/TransactionList'
 import {AddTransaction} from './components/AddTransaction'
 import './App.css';
 
-import { GlobalContext, GlobalProvider } from './context/GlobalState'
+import { GlobalProvider } from './context/GlobalState'
 
 //creating the main app with all of the relevant components added in 
 
