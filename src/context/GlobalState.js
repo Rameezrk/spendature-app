@@ -33,6 +33,7 @@ export const GlobalProvider = ({ children }) => {
         })
     }
 
+    //changing the states
     return (<GlobalContext.Provider value={{
         transactions: state.transactions,
         deleteTransaction,
