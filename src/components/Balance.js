@@ -1,6 +1,9 @@
 import React, {useContext} from 'react'
 import {GlobalContext} from '../context/GlobalState'
 
+
+//creating the balance component and adding the totals together 
+
 export const Balance = () => {
   const {transactions} = useContext(GlobalContext)
 
